@@ -1,0 +1,60 @@
+
+body{
+		padding: 0 0 25px;
+		font: 100% Georgia,Times,serif;
+		background: rgb(255,255,255);
+		width: 900px;
+		margin: 0 auto !important;
+		background: url(../image/bg.jpg);
+		background-repeat: repeat;
+	}
+.header{
+	background-color: black;
+	display: table;
+	width: 100%
+
+
+}
+
+
+
+ul.nav li{
+	color:white;
+	display: inline-block;
+	float: left;
+	
+} 
+.footer{
+	background-color: blue;
+	display: table;
+	width: 100%
+
+}
+ul li {
+	color: red;
+	display: inline;
+	float: right;
+	margin: 10px;
+
+}
+a{
+	color: white;
+}
+img{
+	margin: 10px;
+	border: 2px solid black;
+	float: center;
+}
+.nav a{
+	color: white;
+}
+.fixed{
+	position: fixed;
+	top: 5px;
+	right: 5px;
+}
+.submenu{
+	position: fixed;
+	top: 20px;
+	right: 5px;
+}
