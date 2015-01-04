@@ -2,9 +2,9 @@
 $condition="menu";
 ?>
 <?php
-	include_once '../config/config.php';
- 	include_once '../inc/header.php'; 
-	include_once 'model.php';
+	include_once '../../config/config.php';
+ 	include_once '../../inc/header.php'; 
+	include_once '../../model/submenu.php';
 	if(isset ($_POST['submit'])):
 		$title =$_POST['title'];
 		$link =$_POST['link'];

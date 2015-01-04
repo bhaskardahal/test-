@@ -4,9 +4,9 @@
 // ?>
    
  <?php
-	 include_once '../config/config.php';
- 	include_once '../inc/header.php'; 
-	include_once 'model.php';
+	 include_once '../../config/config.php';
+ 	include_once '../../inc/header.php'; 
+	include_once '../../model/menu.php';
 	if (isset ( $_POST['submit'])):
 		$title = $_POST['title'];
 		$link=$_POST['link'];
@@ -20,11 +20,11 @@
         		
 
 ?>
-<?php include_once '../inc/header.php'; ?>
-<link rel="stylesheet" type="css" href="../assests/css/bootstrap.css"/>
+<?php //include_once '../../inc/header.php'; ?>
+<link rel="stylesheet" type="css" href="../../assests/css/bootstrap.css"/>
 
 <div class="container">
-	<div class="col-md-12"  style="background-color: #fff;">
+	<div class="col-md-12"  style="background-color: #fff;"> 
 	<form action="" method="POST">
 		<div class="">
 			

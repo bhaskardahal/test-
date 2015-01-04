@@ -1,8 +1,8 @@
 <?php 
 	$condition = "";
-	include_once'inc/header.php'; 
+	include_once'../inc/header.php'; 
 
-	include_once'inc/photo.php';?>
+	include_once'../inc/photo.php';?>
 	<!-- <div class="dropdown">
   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
     Dropdown
@@ -27,7 +27,7 @@
 	laborum do amet in ex enim non sed amet cillum dolor occaecat adipisicing cillum in aliqua eu 
 	magna cillum veniam amet in Duis commodo dolor non incididunt commodo laboris aute cupidatat
 	 Duis quis tempor est aute enim laborum enim ea consectetur cupidatat et id ex aliqua dolore
-	  eiusmod amet irure <img src="assests/image/7.jpg" width="150" height="189" alt="photo">
+	  eiusmod amet irure <img src="../assests/image/7.jpg" width="150" height="189" alt="photo">
 	proident cupidatat veniam ullamco anim ex reprehenderit pariatur esse consectetur Duis labore
 	 aliquip labore qui pariatur commodo veniam labore qui laboris sit dolore ad aute deserunt dolor
 	  dolore nostrud minim consectetur dolor nisi proident proident dolor sint enim irure fugiat dolor 
@@ -40,4 +40,4 @@
 	       exercitation voluptate.</p>
 </div>
 
-<?php include_once'inc/footer.php';?>s
+<?php include_once'../inc/footer.php';?>

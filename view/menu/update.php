@@ -1,7 +1,7 @@
 <?php 
 $condition ="menu";
-include_once '../inc/header.php';
-include_once 'model.php';
+  include_once '../../inc/header.php';
+include_once '../../model/menu.php';
 $id = $_GET['id'];
 $updateInstantiate = new Menu();
 $getValue = $updateInstantiate->getValueById($id);

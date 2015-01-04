@@ -1,9 +1,9 @@
 <?php
- $condition ="menu";
+ // $condition ="menu";
 
 // include_once '../inc/header.php';
-include_once 'model.php';
-include_once '../menu/model.php';
+include_once '../../model/submenu.php';
+include_once '../../model/menu.php';
 $menuObj= new menu();
 $listOfMenu = $menuObj->read('read');
 $id = $_GET['id'];
@@ -22,7 +22,6 @@ if ( isset ( $_POST['update'])):
 			header("Location: read.php");
 		endif;
 ?>
-
 <form action="" method="POST">
 		<div>
 			<label>Enter Title Of Menu</label>

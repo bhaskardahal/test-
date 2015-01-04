@@ -1,9 +1,9 @@
 <?php 
 $condition = ""; 
-include_once 'inc/header.php'; ?>
+include_once '../inc/header.php'; ?>
 
 <?php 
-	include_once'model.php';
+	include_once 'model.php';
 	if(isset($_POST['submit'])):
 	$name=$_POST['name'];
 	$email=$_POST['email'];
@@ -42,4 +42,4 @@ include_once 'inc/header.php'; ?>
 
 <input type="submit" name="submit" value="submit"/>
 </from>
-<?php include_once'inc/footer.php'; ?>
+<?php include_once'../inc/footer.php'; ?>

@@ -1,6 +1,6 @@
 
 <?php 
-include_once 'model.php';
+include_once '../../model/menu.php';
 $readInstantiate = new Menu;
 $getData = $readInstantiate->read();
 //var_dump($getData);
@@ -15,7 +15,7 @@ if(isset($_REQUEST['del_id'])){
 		<td>Title</td>
 		<td>Link</td>
 		<td>Status</td>
-		<td>Sub menu</td>
+		<td>Sub Menu</td>
 		
 	</tr>
 	<?php $i = 1; ?>
